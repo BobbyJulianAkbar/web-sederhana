@@ -19,52 +19,41 @@ You may also see any lint errors in the console.
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+# Web Sederhana
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Program ini dibuat untuk memenuhi tugas individu 3 Pemrograman Web Lanjut.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Komponen
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Program ini memiliki 4 Komponen yaitu:
+- Navigation Bar
+- Header
+- Main Content
+- Footer
 
-### `npm run eject`
+## Halaman/Navigasi
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Program ini memiliki fitur navigasi menggunakan library `react-router-dom` dan terdapat 4 halaman:
+- Home
+- About
+- Contact
+- Result
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Fitur Pesan
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Halaman **Contact** Memiliki fitur untuk menerima input teks dari user. Teks tersebut akan disimpan dengan program yang terdapat di `MessageContext.js`.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Kemudian, pesan tersebut akan ditampilkan pada halaman **Result** dan ditampilkan dalam bentuk *Message Counter* pada halaman **Home**.
 
-## Learn More
+## Pengujian/Testing
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Pengujian atau testing program dilakukan dengan terlebih dahulu menginstall React Testing Library menggunakan perintah `npm install --save-dev @testing-library/react`.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Kemudian, dilakukan testing dengan menjalankan `npm test`. Berikut adalah screenshot dari hasilnya.
 
-### Code Splitting
+![Hasil Test](/src/Assets/test_result.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# Profil Mahasiswa
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **Nama : Bobby Julian Akbar**
+- **NIM : 120140082**
