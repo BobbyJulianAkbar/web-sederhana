@@ -1,0 +1,54 @@
+.home {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin: 0;
+  }
+  
+  .content {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  p {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+
+.footer {
+  background-color: #333; /* Background color of the footer */
+  color: #fff; /* Text color */
+  padding: 20px 0; /* Padding at the top and bottom of the footer */
+  text-align: center; /* Align the text to the center */
+  margin-bottom: auto; /* Push the footer to the bottom */
+}
+
+/* Style for links in the footer (e.g., social media icons) */
+.footer a {
+  color: #fff; /* Link color */
+  text-decoration: none; /* Remove underlines from links */
+  margin: 0 10px; /* Add spacing between links */
+}
+
+/* Style for links on hover */
+.footer a:hover {
+  text-decoration: underline; /* Add underlines on hover */
+}
+
+  
